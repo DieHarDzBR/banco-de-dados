@@ -1,0 +1,20 @@
+use dbinfox;
+create table tb_usuario(
+iduser int primary key,
+usuario varchar(50) not null,
+fone varchar(15) not null,
+login varchar(50) not null unique,
+senha varchar (50) not null,
+perfil varchar (50) not null
+); 
+describe tb_usuario;
+
+insert into tb_usuario values
+
+(1,'Diogo Diniz Serafim', '1313-1313', 'DieHarDzBR', '123@Senac');
+insert into tb_usuario values
+(2,'José de Assis', '2323-2323', 'Joseassis', '123@Senac');
+insert into tb_usuario values
+(3,'Leandro Ramos', '3333-3333', 'LeandroRamos', '123@Senac');
+select * from tb_usuario; 
+
