@@ -110,6 +110,7 @@ select * from tb_clientes;
 
 
 
+
 -- removendo uma coluna da tabela
 alter table tb_os drop column idcli;
 
